@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 343" role="img" aria-label="GetNexa logo">
+<rect width="510" height="343" fill="#fff"/>
+<g fill="#03172b">
+<path d="M154 15l89 58v55l-89-57z"/><path d="M110 94h77l55 58-52 59h-80l45-58z"/>
+<path d="M153 217l89-58v61l-89 57z"/><path d="M351 94h44l-45 59 45 58h-77l-55-58 55-59z"/>
+<path d="M263 160l88 57v60l-88-57z"/>
+</g>
+<path fill="#20cde3" d="M263 73l88-58v56l-88 57z"/>
+<text x="49" y="330" fill="#03172b" font-family="Arial Black,Arial,sans-serif" font-size="61" font-weight="900" letter-spacing="-2">GETNEXA</text>
+</svg>
