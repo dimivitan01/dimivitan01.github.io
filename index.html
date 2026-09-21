@@ -11,7 +11,7 @@
 body{display:flex;justify-content:center;padding:22px 14px 38px;background:radial-gradient(circle at 50% -10%,#123866 0,#07152d 36%,#040b16 76%)}
 .wrap{width:min(100%,480px)}.card{background:linear-gradient(180deg,rgba(11,33,68,.94),rgba(5,17,34,.96));border:1px solid var(--line);border-radius:28px;padding:26px 20px;box-shadow:0 24px 80px #0009;overflow:hidden;position:relative}
 .card:before{content:"";position:absolute;width:230px;height:230px;border-radius:50%;background:#16c8ff18;filter:blur(15px);right:-120px;top:-100px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.4px;font-size:20px}.mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--cyan),var(--cyan2));display:grid;place-items:center;color:#06152b;font-weight:1000}
+.brand{display:flex;justify-content:center;position:relative;z-index:1}.brand-logo{width:min(100%,300px);height:auto;display:block;border-radius:14px;background:#fff;padding:8px 14px;box-shadow:0 10px 35px #0005}
 .hero{padding:28px 2px 18px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.8px;color:var(--cyan);font-weight:800}.hero h1{font-size:34px;line-height:1.05;margin:8px 0 9px}.role{color:var(--muted);line-height:1.55;font-size:15px}.role b{color:#fff}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:17px}.chip{font-size:12px;padding:7px 10px;border:1px solid #244869;border-radius:999px;color:#cfeaff;background:#0b2746aa}
 .primary{display:block;text-decoration:none;text-align:center;margin:18px 0 10px;padding:15px;border-radius:15px;background:linear-gradient(135deg,var(--cyan),#41a7ff);color:#041327;font-weight:900;box-shadow:0 8px 28px #16c8ff33}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.btn{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;color:#eaf6ff;background:#0b203b;border:1px solid #1d4267;padding:13px 10px;border-radius:14px;font-weight:750;font-size:14px}.btn:hover{border-color:#35bdf0}
@@ -21,7 +21,7 @@ body{display:flex;justify-content:center;padding:22px 14px 38px;background:radia
 @media(max-width:370px){.grid{grid-template-columns:1fr}.hero h1{font-size:30px}}
 </style></head>
 <body><main class="wrap"><section class="card">
-<div class="brand"><div class="mark">N</div><span>GetNexa</span></div>
+<div class="brand"><img class="brand-logo" src="getnexa-logo.svg" alt="GetNexa"></div>
 <div class="hero"><div class="eyebrow">Digital Business Card</div><h1>Dimitar Vitanov</h1>
 <div class="role"><b>Founder</b> — GetNexa<br><b>Co-Founder</b> — Foundation Institute for Socioeconomic Growth ABC</div>
 <div class="chips"><span class="chip">SEO</span><span class="chip">Web Development</span><span class="chip">AI Automation</span><span class="chip">Digital Growth</span></div></div>
